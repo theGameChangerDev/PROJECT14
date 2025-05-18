@@ -47,6 +47,8 @@ docker push mayorfaj/cglobr:1.0
 
 ##### Deployment with [Docker Compose](https://docs.docker.com/compose/)
 
+NOTE; Mkae sure to troubleshoot any issue you encounter
+
 All we have done until now required quite a lot of effort to create an image and launch an application inside it. We should not have to always run Docker commands on the terminal to get our applications up and running. There are solutions that make it easy to write [declarative code](https://en.wikipedia.org/wiki/Declarative_programming) in [YAML](https://en.wikipedia.org/wiki/YAML), and get all the applications and dependencies up and running with minimal effort by launching a single command.
 
 In this section, we will refactor the Frontend app so that we can leverage the power of Docker Compose.
